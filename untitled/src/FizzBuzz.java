@@ -1,6 +1,8 @@
 public class FizzBuzz implements IFizz{
+
+    @Override
     public String answer(int number){
-        if(number %3 == 0 && number %5 == 0){
+        if(number % 3 == 0 && number % 5 == 0){
             return "fizzbuzz";
         }
         else if(number % 3 == 0){
