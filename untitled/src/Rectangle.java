@@ -4,11 +4,11 @@ public class Rectangle implements IShape{
 
     @Override
     public double getPerimeter() {
-        return 0;
+        return (2 * width) + (2 * length);
     }
 
     @Override
     public double getArea() {
-        return 0;
+        return width * length;
     }
 }
